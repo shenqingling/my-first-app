@@ -1,0 +1,12 @@
+/* pages/my/my.wxss */
+.my_pane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_pane .my_pane_name{
+    height: 40px;
+    line-height: 40px;
+}

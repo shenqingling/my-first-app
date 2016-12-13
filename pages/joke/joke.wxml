@@ -1,0 +1,16 @@
+<!--pages/joke/joke.wxml-->
+<import src="../template/req_list.wxml"/>
+
+<view class="nav">
+    <navigator url="../index/index" class="nav-list">
+        <text>推荐</text>
+    </navigator>
+    <navigator url="../joke/joke" class="nav-list act">
+        <text>段子</text>
+    </navigator>
+    <navigator url="../pic/pic" class="nav-list">
+        <text>趣图</text>
+    </navigator>
+</view>
+
+<template is="reqList" data="{{req}}"/>

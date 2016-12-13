@@ -1,0 +1,7 @@
+<!--pages/my/my.wxml-->
+<view class="my_pane">
+    <view class="my_pane_name">
+        <text>sql</text>
+    </view>
+    <image src="../../images/my_code.jpg"></image>
+</view>

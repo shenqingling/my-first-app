@@ -1,0 +1,5 @@
+<!--pages/collection/collection.wxml-->
+<import src="../template/req_list.wxml"/>
+
+<view wx:if="{{req.length === 0}}">暂无收藏</view>
+<template is="reqList" data="{{req}}"/>
